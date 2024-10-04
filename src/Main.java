@@ -8,7 +8,7 @@ public class Main {
         newMovie.duracaoEmMinutos = 160;
 
         newMovie.showsTechnicalFile();
-        newMovie.rateMovie();
-        newMovie.getMovieRatings();
+        newMovie.rateMovie(8.8);
+        System.out.println(newMovie.getMovieRatings());
     }
 }

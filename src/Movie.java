@@ -4,7 +4,7 @@ public class Movie {
     String nome;
     int anoDeLancamento;
     boolean incluidoNoPlano;
-    double somaDasAvaliacoes;
+    private double somaDasAvaliacoes;
     int totalDeAvaliacoes;
     String genero;
     int duracaoEmMinutos;
@@ -14,9 +14,7 @@ public class Movie {
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
     }
 
-    void rateMovie() {
-        Scanner scanner = new Scanner(System.in);
-        double nota = scanner.nextDouble();
+    void rateMovie(double nota) {
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes++;
     }
