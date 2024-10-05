@@ -1,3 +1,5 @@
+package br.com.alura.exercicios.java;
+
 public class Musica {
     String titulo;
     String artista;
@@ -6,7 +8,7 @@ public class Musica {
     int numeroDeAvaliacoes;
 
     void exibeFichaTecnica() {
-        System.out.println("Nome da Musica: " + titulo);
+        System.out.println("Nome da br.com.alura.exercicios.java.Musica: " + titulo);
         System.out.println("Artista: " + artista);
     }
 

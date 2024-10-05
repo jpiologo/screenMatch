@@ -1,3 +1,5 @@
+package br.com.alura.exercicios.java;
+
 public class Pessoa {
     String nome;
     int idade;

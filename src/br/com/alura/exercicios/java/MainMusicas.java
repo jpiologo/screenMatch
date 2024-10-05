@@ -1,3 +1,5 @@
+package br.com.alura.exercicios.java;
+
 public class MainMusicas {
     public static void main(String[] args) {
         Musica musica1 = new Musica();

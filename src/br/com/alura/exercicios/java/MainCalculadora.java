@@ -1,6 +1,8 @@
-public class MainForTests {
+package br.com.alura.exercicios.java;
+
+public class MainCalculadora {
     public static void main(String[] args) {
-//        Pessoa pessoa1 = new Pessoa();
+//        br.com.alura.exercicios.java.Pessoa pessoa1 = new br.com.alura.exercicios.java.Pessoa();
 //        pessoa1.returnHelloOnScreen();
 
         Calculadora calc = new Calculadora();

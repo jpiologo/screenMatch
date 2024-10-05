@@ -1,3 +1,5 @@
+package br.com.alura.exercicios.java;
+
 public class Calculadora {
     int resultadoCalculo = 0;
 
